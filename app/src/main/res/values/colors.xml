@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="DarkGrey">#3a3a3a</color>
+    <color name="Orange">#FF7043</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Grey">#bfc0c1</color>
+    <color name="Orange1">#F57C00</color>
+    <color name="IDK">#292c34</color>
+    <color name="GhostWhite">#f8f8ff</color>
+    <color name="BabyPowder">#FEFEFA</color>
+    <color name="Snow">#FFFAFA</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="FloralWhite">#FFFAF0</color>
+    <color name="Seashell">#FFF5EE</color>
+    <color name="LoginStokeBackColor">#c5c9cd</color>
+    <color name="Transparent">#00c5c9cd</color>
+
+</resources>

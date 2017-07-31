@@ -1,0 +1,262 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.example.marceline.gazarch.Login.Fragment.SignInFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Толгой хэсгийн зураг -->
+        <LinearLayout
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/cafetest"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="-5dp"
+                    android:background="@drawable/whitecornerbackground"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="170dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:textSize="12dp"
+                        android:text="Photo by "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@android:color/black"
+                        android:text="Young Meister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/byambaa"
+                        android:scaleType="centerCrop"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+        <!-- Нэвтрэх хэсэг -->
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:orientation="vertical"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+            <TextView
+                android:gravity="center_vertical"
+                android:textColor="@color/Black"
+                android:textSize="20dp"
+                android:text="Sign in to Gazarch"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_margin="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:background="@drawable/facebook"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_margin="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:background="@drawable/google"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <LinearLayout
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="150dp"
+                    android:layout_height="1dp">
+                </LinearLayout>
+
+                <TextView
+                    android:textColor="@color/LoginStokeBackColor"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="or"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="150dp"
+                    android:layout_height="1dp">
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:inputType="textEmailAddress"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Your email"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:inputType="textPassword"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Password"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightbluecornerbackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:textColor="@color/White"
+                        android:text="Sign in"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+        <!-- Бүртгүүлэх болон зочноор нэвтрэх хэсэг -->
+        <LinearLayout
+            android:visibility="gone"
+            android:background="@drawable/lightgreystrokebackground"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/LoginStokeBackColor"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="Sign up"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/LoginStokeBackColor"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/LoginStokeBackColor"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="Go as guest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    </RelativeLayout>
+
+</FrameLayout>

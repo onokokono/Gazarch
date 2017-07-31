@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marceline.gazarch.Login.SignInActivity">
+
+    <FrameLayout
+        android:id="@+id/activity_sign_in_fragmentContainer"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="@drawable/lightgreystrokebackground"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="160dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/activity_sign_in_signupbtn"
+                android:textColor="@color/LoginStokeBackColor"
+                android:text="Sign up"
+                android:background="@color/Transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/LoginStokeBackColor"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/activity_sign_in_goasguestbtn"
+                android:textColor="@color/LoginStokeBackColor"
+                android:text="Go as guest"
+                android:background="@color/Transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

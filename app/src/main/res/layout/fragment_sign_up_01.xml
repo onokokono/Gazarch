@@ -1,0 +1,246 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:id="@+id/SignUpFragment_01_Root"
+    tools:context="com.example.marceline.gazarch.Login.Fragment.SignUp_01">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Толгой хэсэг -->
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/SignUpFragment_01_BackBtn"
+                android:padding="10dp"
+                android:src="@mipmap/ic_keyboard_arrow_left_black_24dp"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Account Details"
+                android:textColor="@color/Black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:background="@drawable/lightgreystrokebackground"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+        <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+        <!-- Бүртгүүлэх хэсэг -->
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:orientation="vertical"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content">
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:inputType="textPersonName"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Firstname"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/SignUpFragmentFirstnameTxt" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:inputType="textPersonName"
+                        android:id="@+id/SignUpFragmentLastnametxt"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Lastname"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:inputType="textPersonName"
+                        android:id="@+id/SignUpFragmentUsernameTxt"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Username"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/SignUpFragmentEmailTxt"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Email"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/SignUpFragmentPasswordTxt"
+                        android:inputType="textPassword"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Password"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightgreystrokebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <EditText
+                        android:id="@+id/SignUpFragmentPasswordRepeatTxt"
+                        android:inputType="textPassword"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/LoginStokeBackColor"
+                        android:hint="Confirm password"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightbluecornerbackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <Button
+                        android:id="@+id/SignUpFragmentNextbtn"
+                        android:textColor="@color/White"
+                        android:text="NEXT"
+                        android:background="@color/Transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+        <!-- Нэвтрэх болон зочноор нэвтрэх хэсэг -->
+        <LinearLayout
+            android:visibility="gone"
+            android:background="@drawable/lightgreystrokebackground"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/LoginStokeBackColor"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="Sign in"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/LoginStokeBackColor"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/LoginStokeBackColor"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="Go as guest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    </RelativeLayout>
+
+</FrameLayout>
